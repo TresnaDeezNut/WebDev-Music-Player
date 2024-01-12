@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+body {
+    font-family: cursive;
+    margin: 0;
+    /*jarak luar antar komponen */
+    padding: 50px;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.956);
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    left: 0;
+    background: #1f1f1f;
+    width: 100%;
+    height: 45px;
+    top: 0;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    -webkit-box-shadow: 0px 3px 0px 0px rgb(255, 132, 0);
+    -moz-box-shadow: 0px 3px 0px 0px rgb(255, 132, 0);
+    box-shadow: 0px 3px 0px 0px rgb(255, 132, 0);
+}
+
+.logos {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.first {
+    color: white;
+    font-weight: 700;
+}
+
+.last {
+    color: #ff8400;
+    padding-left: 4px;
+    padding-right: 5px;
+}
+
+.header img {
+    height: 40px;
+}
+
+#container {
+    margin-top: 15px;
+    width: 100%;
+    /*mengatur lebar*/
+    height: auto;
+    /*mengatur lebar*/
+    /*jarak luar antar komponen */
+    margin-left: 33px;
+    /*jarak sebelah kiri antar komponen */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: linear-gradient(to top, #232427ae, #333333, #575757)
+    /*mengatur warna background*/
+}
+
+header {
+    width: 0%;
+    /*mengatur lebar*/
+    height: 230px;
+    /*mengatur tinggi*/
+    display: flex;
+    /* Mengubah elemen dengan kelas header menjadi flex header */
+    margin-top: 80px;
+    /*jarak sebalah atas antar komponen */
+    margin-left: 50px;
+    /*jarak sebelah kiri antar komponen */
+    margin-bottom: 20px;
+    /*jarak sebelah bawah antar komponen */
+    text-align: left;
+    /*mengatur posisi teks*/
+    font-family: cursive;
+    /*mengatur gaya text*/
+}
+
+#header-text {
+    /* Menggunakan inline-block */
+    vertical-align: middle;
+    /* Posisi vertikal menjadi center */
+    max-width: calc(100% - 270px);
+    /* Lebar maksimum teks, disesuaikan dengan lebar gambar dan margin */
+    color: white;
+    /* Mengatur warna teks menjadi putih */
+    margin-left: 50px;
+    /*jarak sebelah kiri antar komponen */
+    margin-top: 50px;
+    /* Atur jarak atas antara teks dan gambar */
+}
+
+h1 {
+    font-size: 70px;
+    /*mengatur ukuran font*/
+    margin-top: 0px;
+    /*Atur jarak atas antara teks dan gambar*/
+    text-shadow: black;
+    /*untuk memberi warna pada text*/
+    font-family: cursive;
+    /*mengatur gaya text*/
+}
+
+.list-no-style {
+    list-style: none;
+    /* Menghilangkan poin berbentuk titik pada unordered list */
+}
+
+.left-nav {
+    position: fixed;
+    background-color: rgb(34, 34, 34);
+    /*mengatur warna background*/
+    border-radius: 5px;
+    top: 65px;
+    left: 10px;
+    padding-left: 8px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+
+}
+
+.left-nav a i {
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(150, 150, 150);
+}
+
+.left-nav i:hover {
+    color: rgb(255, 255, 255);
+    /*mengatur warna saat terkena kursor*/
+}
+
+.left-nav2 {
+    display: flex;
+    margin-top: 0px;
+    position: fixed;
+    background-color: rgb(34, 34, 34);
+    /*mengatur warna background*/
+    border-radius: 5px;
+    text-align: center;
+    top: 197px;
+    left: 10px;
+    bottom: 10px;
+    padding-left: 2px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.left-nav2 a i {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    /*mengatur ukuran font*/
+    /*jarak luar antar komponen */
+    margin-top: 10px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 19px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+    margin-right: 20px;
+}
+
+
+#isi {
+    width: 100%;
+    /*mengatur lebar*/
+    height: 500px;
+    /*mengatur lebar*/
+    margin: 0;
+    /*jarak luar antar komponen */
+    margin-left: 33px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+    background: linear-gradient(to bottom, #141516ae, #2c2e31ae)
+}
+
+h3 {
+    color: white;
+    /*mengatur warna font*/
+    margin-left: 40px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+    margin-top: 20px;
+}
+
+h5 {
+    color: dimgray;
+    margin-left: 50px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+}
+
+.box {
+    display: flex;
+    /* Mengubah elemen dengan kelas .box menjadi flex box */
+}
+
+#box1 {
+    background-color: #151618ae;
+    /*mengatur warna background*/
+    width: 200px;
+    /*mengatur lebar*/
+    height: 300px;
+    margin: 40px;
+    /*jarak luar antar komponen */
+    text-align: center;
+    border-radius: 8px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    /* Mengubah kursor saat di atas teks */
+}
+
+#box1 p {
+    margin-top: 20px;
+    /*Atur jarak atas antara teks dan gambar*/
+    color: white;
+    /*memberi warna font*/
+}
+
+#box1 img {
+    width: 170px;
+    /*mengatur lebar*/
+    margin-top: 30px;
+    /*Atur jarak atas antara teks dan gambar*/
+    border-radius: 50%;
+}
+
+#box1:hover {
+    background-color: #252525;
+    /*mengatur warna background*/
+}
+
+#box1 .play {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#box1 .play .fa-solid {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 18px;
+    /*mengatur lebar*/
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #b96e1d;
+    /*mengatur warna background pada ikon play*/
+    border-radius: 50%;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+#box1:hover .play .fa-solid {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+#track {
+    width: 100%;
+    /*mengatur lebar*/
+    height: 500px;
+    /*mengatur lebar*/
+    margin: 0;
+    /*jarak luar antar komponen */
+    margin-top: 12px;
+    /*Atur jarak atas antara teks dan gambar*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to bottom, #2c2e31ae, #3a3c41ae)
+}
+
+#box2 {
+    background-color: #1d1f22ae;
+    /*mengatur warna background*/
+    width: 570px;
+    /*mengatur lebar*/
+    height: 80px;
+    margin-top: 5px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 40px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+    display: flex;
+    /* Mengubah elemen dengan kelas .#box2 menjadi flex box2 */
+    border-radius: 9px;
+}
+
+#box2:hover {
+    background-color: #252525;
+    /*mengatur warna background*/
+}
+
+#box2 h4 {
+    color: rgb(198, 198, 199);
+    /*memberi warna font*/
+    font-size: 17px;
+    /*mengatur ukuran font*/
+    margin-left: 20px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+}
+
+#box2 p {
+    color: white;
+    /*memberi warna font*/
+    margin-top: 30px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 20px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+}
+
+#box2 h3 {
+    color: rgb(198, 198, 199);
+    /*memberi warna font*/
+    font-size: 17px;
+    margin-top: 22px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 120px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+}
+
+#box2 img {
+    width: 60px;
+    /*mengatur lebar*/
+    height: 60px;
+    margin-top: 10px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 30px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+    border-radius: 8px;
+}
+
+#box3 {
+    background-color: #1d1f22ae;
+    /*mengatur warna background*/
+    width: 570px;
+    /*mengatur lebar*/
+    height: 80px;
+    margin-top: 5px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 40px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+    display: flex;
+    /* Mengubah elemen dengan kelas #box3 menjadi flex box3 */
+    border-radius: 9px;
+
+}
+
+#box3:hover {
+    background-color: #252525;
+    /*mengatur warna background*/
+}
+
+#box3 h4 {
+    color: rgb(198, 198, 199);
+    /*memberi warna font*/
+    font-size: 17px;
+    /*mengatur ukuran font*/
+    margin-left: 20px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+}
+
+#box3 h3 {
+    color: rgb(198, 198, 199);
+    /*memberi warna font*/
+    font-size: 17px;
+    /*mengatur ukuran font*/
+    margin-top: 22px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 160px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+}
+
+#box3 p {
+    color: white;
+    /*memberi warna font*/
+    margin-top: 30px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 20px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+}
+
+#box3 img {
+    width: 60px;
+    /*mengatur lebar*/
+    height: 60px;
+    margin-top: 10px;
+    /*Atur jarak atas antara teks dan gambar*/
+    margin-left: 30px;
+    /*Atur jarak sebelah kiri antara teks dan gambar*/
+    border-radius: 8px;
+}

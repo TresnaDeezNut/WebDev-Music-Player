@@ -1,0 +1,112 @@
+body {
+    font-family: 'arial', sans-serif;
+    overflow: hidden;
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/14800200/pexels-photo-14800200.jpeg?cs=srgb&dl=pexels-stein-egil-liland-14800200.jpg&fm=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 3s;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .login-container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+
+  .login-button {
+    width: 100px;
+    background-color: #a3a3a3;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .login-button:hover {
+    background-color: #b96e1d;
+  }
+
+  .social-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .social-button {
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .facebook-button {
+    
+    background-color :#333333;
+    background: transparent;
+    backdrop-filter: 10px;
+    color: #fff;
+  }
+
+  .facebook-button:hover {
+    background-color: #b96e1d;
+  }
+
+  .apple-button {
+    background-color :#333333;
+    background: transparent;
+    backdrop-filter: 10px;
+    color: #fff;
+  }
+
+  .apple-button:hover {
+    background-color: #b96e1d;
+  }
+
+  .google-button {
+    background-color :#333333;
+    background: transparent;
+    backdrop-filter: 10px;
+    color: #fff;
+  }
+
+  .google-button:hover {
+    background-color: #b96e1d;
+  }
