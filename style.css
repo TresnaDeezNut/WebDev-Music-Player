@@ -437,3 +437,17 @@ input[type="range"]::-webkit-slider-thumb {
   transition: 0.5s;
   background: none;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3b3a3a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #ff9d00; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
